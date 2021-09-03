@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+}
+#title{
+height: 80px;
+background-color: black ;
+background-image: linear-gradient(rgb(57,62,63), rgb(97,105,125), rgb(57,62,63));
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#title h2{
+    font-weight: bold;
+    color: white;
+}
+#ruppee{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
+#rs{
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(202, 201, 201);
+    font-size: 25px;
+}
+#rs:focus{
+    outline: none;
+}
+#total{
+    height: 200px;
+    background-color: rgb(239,226,204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+#total span{
+    color: red;
+    font-size: 40px;
+}
+#last-sec{
+    height: auto;
+    background-image: linear-gradient(rgb(57,62,63), rgb(97,105,125), rgb(57,62,63));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+
+}
+.fruit{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #5c6476;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    background-color: #f3f3f3;
+}
+.fruit h4{
+    background-color: #346e34;
+    color: wheat;
+    margin: 0px;
+    padding: 11px;
+}
+figure {
+    margin: 0px;
+    font-weight: bold;
+}
+#btn{
+    display: flex;
+    justify-content:space-between;
+    border:1px solid black;
+    border-radius:20px;
+    margin: auto;
+    width: 90%;
+}
+#minus{
+    flex: 1;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    color: white;
+    background-color: #424847;
+}
+#btnInp1,#btnInp2,#btnInp3{
+    flex: 3;
+    margin-top:0px;
+     width:20%; 
+    border:none;
+    padding:5px;
+    font-size: 20px;
+    text-align: center;
+    outline:none; 
+}
+#plus{
+    flex: 1;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    color: white;
+    background-color: #424847;
+}

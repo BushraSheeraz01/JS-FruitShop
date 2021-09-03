@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <div id="title">
+        <h2>Fruit Shop</h2>
+    </div>
+    <div id="ruppee">
+        <label>I have Rs.
+            <input type="text" id="rs">
+        </label>
+    </div>
+    <div id="total">
+        <label >Your total is Rs.
+            <span id="amount">0</span>
+        </label>
+    </div>
+    <section>
+        <div id="last-sec">
+            <div class="fruit">
+                <h4>Rs.10</h4>
+                <figure>
+                    <img src="images/apple.png" alt="apple">
+                    <figcaption>Apple</figcaption>
+                </figure>
+                <div id="btn">
+                    <button id="minus" onClick="decrementApple()" class="decrement">-</button>
+                    <input type="number" id="btnInp1" name="txtApple" value="0" >
+                    <button id="plus" onClick="incrementApple()" class="increment">+</button>
+                </div>
+            </div>
+            <div class="fruit">
+                <h4>Rs.15</h4>
+                <figure>
+                    <img src="images/orange.png" alt="orange">
+                    <figcaption>Orange</figcaption>
+                </figure>
+                <div id="btn">
+                    <button id="minus" onClick="decrementOrange()">-</button>
+                    <input type="text" id="btnInp2" name="txtOrange" value="0">
+                    <button id="plus" onClick="incrementOrange()">+</button>
+                </div>
+            </div>
+            <div class="fruit">
+                <h4>Rs.7</h4>
+                <figure>
+                    <img src="images/banana.png" alt="banana">
+                    <figcaption>Banana</figcaption>
+                </figure>
+                <div id="btn">
+                    <button id="minus" onClick="decrementBanana()">-</button>
+                    <input type="text" id="btnInp3" name="txtBanana" value="0">
+                    <button id="plus" onClick="incrementBanana()">+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
